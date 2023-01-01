@@ -11,10 +11,12 @@
     transition: 0.5s ease-in-out;
     background-image: url("../images/background2.jpg");
 }
-.container img{
+
+.container img {
     width: 100%;
     height: 100%;
 }
+
 .navbar {
     position: absolute;
     padding: 10px;
@@ -35,17 +37,20 @@
     text-decoration: none;
     text-align: center;
     cursor: pointer;
-    border-radius: 16px ;
-    font-size: 13px ;
+    border-radius: 16px;
+    font-size: 13px;
 }
-.ul_list .left .list_item a{
-    padding: 6px 32px ;
+
+.ul_list .left .list_item a {
+    padding: 6px 32px;
 }
-.ul_list .right .list_item a{
-    padding: 6px 28px ;
+
+.ul_list .right .list_item a {
+    padding: 6px 28px;
 }
-.navbar .ul_list .list_item a:hover{
-    background-color: rgba(207, 177, 177, 0.08) ;
+
+.navbar .ul_list .list_item a:hover {
+    background-color: rgba(207, 177, 177, 0.08);
 }
 
 h2 {
@@ -54,7 +59,7 @@ h2 {
     font-family: aviano flare;
     font-weight: 100;
     font-size: 28px;
-  
+
 }
 
 .container .lorem {
@@ -72,10 +77,12 @@ h2 {
     left: 34%;
     top: 80%;
 }
-.classes.music li{
+
+.classes.music li {
     color: #fff;
 }
-.list_item i{
+
+.list_item i {
     color: #fff;
     background-color: black;
     border-radius: 50%;
@@ -83,22 +90,20 @@ h2 {
     margin: 2px;
     font-size: 12px;
 }
-.ul_list .line{
+
+.ul_list .line {
     background-color: #fff;
     height: 12px;
     width: 1px;
     margin: 0px 5px;
 }
 
-.english{
+.english {
     color: #b49a46;
     padding-left: 5px;
     font-family: Novecento sans, Normal;
 }
 
-.arabic{
+.arabic {
     color: #fff;
 }
-
-
-
