@@ -1,33 +1,36 @@
-
-h3{
+h3 {
     font-family: AGR;
     padding-bottom: 20px;
 }
-.upcoming{
-    background-color:rgb(247, 240, 230);
+
+.upcoming {
+    background-color: rgb(247, 240, 230);
     padding: 50px;
 
 }
 
-.five{
+.five {
     font-size: 100px;
     font-weight: 800;
 }
-@media only screen and (max-width: 768px){
-    img{
-        width: 400px ;
+
+@media only screen and (max-width: 768px) {
+    img {
+        width: 400px;
         height: 300px;
 
     }
 }
-h6{
+
+h6 {
     color: #b49a46;
 }
 
-.vodafone{
+.vodafone {
     margin: 0px;
 }
-.ticket{
+
+.ticket {
     color: #fff;
     background-color: #b49a46;
     padding: 10px 100px;
@@ -36,7 +39,8 @@ h6{
     font-weight: bold;
     margin-top: 40px;
 }
-.date{
+
+.date {
     margin-top: 60px;
     background-color: #0F1820;
     color: #fff;
@@ -44,11 +48,13 @@ h6{
     margin-right: -22px;
     transition: 0.5s ease-in-out;
 }
-.date img{
+
+.date img {
     width: 22px;
     float: right;
 }
-.date_hide{
+
+.date_hide {
     display: none;
     margin-top: 45px;
     background-color: #b49a46;
@@ -57,16 +63,19 @@ h6{
     margin-right: -22px;
     transition: 0.5s ease-in-out;
 }
-.date_hide img{
+
+.date_hide img {
     width: 30px;
     float: right;
 }
-.date:hover{
+
+.date:hover {
     display: none;
     transition: 0.5s ease-in-out;
 }
-.date:hover + .date_hide {
+
+.date:hover+.date_hide {
     display: block;
     transition: 0.5s ease-in-out;
-    
-  }
+
+}
