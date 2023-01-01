@@ -1,0 +1,43 @@
+.news{
+    background-color: black;
+    padding: 20px;
+    margin-top: 40px;
+}
+.news h3{
+    color: #fff;
+    margin-right: 5px;
+}
+.news img{
+    width: 100%;
+}
+.news .text{
+    font-size: 14px;
+}
+.news .date{
+    font-size: 11px;
+}
+.news .card{
+    background-color: transparent;
+    color: #fff;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.card h5{
+    margin: 15px 0px;
+    
+}
+.read{
+    color: #b49a46 ;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.see{
+    color: #fff;
+    background-color: black;
+    border-color: #fff;
+    padding: 10px 60px;
+    font-size: 14px;
+    margin-top: 60px;
+    text-align: center;
+    margin: auto;
+}

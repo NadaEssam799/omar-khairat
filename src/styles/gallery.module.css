@@ -1,0 +1,119 @@
+.gallery {
+    text-align: center;
+    color: #0F1820;
+    font-family: AGR;
+    margin-top: 20px;
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 59px;
+}
+
+.list li {
+    padding: 12px 0;
+    font-family: NVR;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 5px solid #B49A46 !important;
+    transition: 0.25s ease;
+}
+
+.mySwiper {
+    width: 100%;
+}
+
+.play {
+    position: absolute;
+    top: 31%;
+    left: 48%;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5 ease-in;
+}
+
+.swipeImage {
+    width: 100%;
+    cursor: pointer;
+    filter: brightness(0.5);
+}
+
+.hover:hover .swipeImage {
+    filter: brightness(1);
+
+}
+
+.hover:hover .play {
+    opacity: 1;
+    transition: 0.25s ease-in;
+}
+
+.hover:hover .undetext {
+    display: unset;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.25s ease-in;
+
+}
+
+.hover:hover .slidetext {
+    bottom: 40px;
+    transition: 0.25s ease-in;
+
+}
+
+.play:hover {
+    opacity: 1;
+    transition: 0.25s ease-in;
+    transition: 0.25s ease-in;
+
+}
+
+.slidetext {
+    margin: 0;
+    position: absolute;
+    bottom: 19px;
+    color: white;
+    font-family: 'AGR';
+    font-weight: bold;
+    font-size: 13px;
+    left: 32%;
+}
+
+
+.undetext {
+    display: none;
+}
+
+.allvideos {
+    margin-top: 24px !important;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+.allvideos>p {
+    margin: 0 !important;
+    color: #B49A46;
+    padding: 10px 20px;
+    border: 1px solid #B49A46;
+    font-weight: 500;
+    font-family: 'NVR';
+    cursor: pointer;
+}

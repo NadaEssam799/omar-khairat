@@ -1,0 +1,72 @@
+
+h3{
+    font-family: AGR;
+    padding-bottom: 20px;
+}
+.upcoming{
+    background-color:rgb(247, 240, 230);
+    padding: 50px;
+
+}
+
+.five{
+    font-size: 100px;
+    font-weight: 800;
+}
+@media only screen and (max-width: 768px){
+    img{
+        width: 400px ;
+        height: 300px;
+
+    }
+}
+h6{
+    color: #b49a46;
+}
+
+.vodafone{
+    margin: 0px;
+}
+.ticket{
+    color: #fff;
+    background-color: #b49a46;
+    padding: 10px 100px;
+    border-style: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.date{
+    margin-top: 60px;
+    background-color: #0F1820;
+    color: #fff;
+    padding: 8px;
+    margin-right: -22px;
+    transition: 0.5s ease-in-out;
+}
+.date img{
+    width: 22px;
+    float: right;
+}
+.date_hide{
+    display: none;
+    margin-top: 45px;
+    background-color: #b49a46;
+    color: #fff;
+    padding: 8px;
+    margin-right: -22px;
+    transition: 0.5s ease-in-out;
+}
+.date_hide img{
+    width: 30px;
+    float: right;
+}
+.date:hover{
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+.date:hover + .date_hide {
+    display: block;
+    transition: 0.5s ease-in-out;
+    
+  }
