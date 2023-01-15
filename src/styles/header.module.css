@@ -29,6 +29,7 @@
 
 .navbar .ul_list .list_item {
     display: inline-block;
+    font-family: NVR;
 }
 
 .navbar .ul_list .list_item a {
@@ -39,6 +40,7 @@
     cursor: pointer;
     border-radius: 16px;
     font-size: 13px;
+    font-family: NVR;
 }
 
 .ul_list .left .list_item a {
@@ -56,7 +58,7 @@
 h2 {
     color: #b49a46;
     position: absolute;
-    font-family: aviano flare;
+    font-family: AGR;
     font-weight: 100;
     font-size: 28px;
 
@@ -70,12 +72,12 @@ h2 {
 
 .first_p {
     position: absolute;
-    font-family: aviano flare;
     color: #fff;
     font-size: 20px;
     text-align: center;
     left: 34%;
     top: 80%;
+    font-family: NVR;
 }
 
 .classes.music li {
@@ -101,7 +103,8 @@ h2 {
 .english {
     color: #b49a46;
     padding-left: 5px;
-    font-family: Novecento sans, Normal;
+    font-family: NVR;
+    font-size: 14px;
 }
 
 .arabic {

@@ -1,6 +1,7 @@
 h3 {
     font-family: AGR;
-    padding-bottom: 20px;
+    padding: 40px 0 ;
+    font-size: 22px;
 }
 
 .upcoming {
@@ -8,7 +9,10 @@ h3 {
     padding: 50px;
 
 }
-
+.cairo{
+    font-family: NVR;
+    font-size: 20px;
+}
 .five {
     font-size: 100px;
     font-weight: 800;
@@ -24,6 +28,7 @@ h3 {
 
 h6 {
     color: #b49a46;
+    font-family: NVR ;
 }
 
 .vodafone {
@@ -78,4 +83,9 @@ h6 {
     display: block;
     transition: 0.5s ease-in-out;
 
+}
+.upcoming .red{
+   color: red;
+   font-size: 13px;
+   padding-top: 5px;
 }

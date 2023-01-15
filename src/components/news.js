@@ -1,19 +1,41 @@
 import classes from "../styles/news.module.css";
+import { useState } from "react";
+
 
 function NewsComponent(){
+        let [activeTab, setActiveTab] = useState("PRESS");
+        function handleActiveTab(tab) {
+         setActiveTab(tab);
+       }
     return(
           <section className={classes.news}>
              <h3>Latest News</h3>
+             <div className="row">
+        <ul className={classes.list}>
+          <li
+            onClick={() => handleActiveTab("PRESS")}
+            className={activeTab === "PRESS" ? classes.active : ""}>
+            PRESS
+          </li>
+          <li
+            onClick={() => handleActiveTab("MEDIA")}
+            className={activeTab === "MEDIA" ? classes.active : "" }>
+            MEDIA
+          </li>
+        </ul>
+      </div>
              <div className="row">
                 <div className="col-md-3">
                     <div className={classes.card}>
                       <img src={require("../images/news1.jpg")} className="card-img-top" />
                        <div className="card-body">
-                         <h5 className="card-title">New Concert IN</h5>
+                         <h5 className="card-title">New concert IN</h5>
                           <p className={classes.date}>14.05.2023</p>
-                          <p className={classes.text}>Lorem ipsum dolor sit s, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit s, 
-                               consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor ng elitr, sed diam nonumy eirmodLorem ipsum dolor sit s,
-                               consetetur sadipscing elitr, sed diam nonumy <span className={classes.read}>Read More</span></p>                      </div>
+                          <p className={classes.text}>Lorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmodLorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmod Lorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmodLorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy <span className={classes.read}>Read More</span></p>                      </div>
                     </div>  
                 </div>
 
@@ -21,11 +43,13 @@ function NewsComponent(){
                     <div className={classes.card} >
                       <img src={require("../images/news1.jpg")} className="card-img-top" />
                        <div className="card-body">
-                         <h5 className="card-title">New Concert IN</h5>
+                         <h5 className="card-title">New concert IN</h5>
                           <p className={classes.date}>14.05.2023</p>
-                          <p className={classes.text}>Lorem ipsum dolor sit s, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit s, 
-                               consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor ng elitr, sed diam nonumy eirmodLorem ipsum dolor sit s,
-                               consetetur sadipscing elitr, sed diam nonumy <span className={classes.read}>Read More</span></p>
+                          <p className={classes.text}>Lorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmodLorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmod Lorem ipsum dolor sit s, consetetur sadipscing elitr,
+                             sed diam nonumy eirmodLorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy <span className={classes.read}>Read More</span></p>
                       </div>
                     </div>  
                 </div>
@@ -34,11 +58,13 @@ function NewsComponent(){
                     <div className={classes.card} >
                       <img src={require("../images/news2.jpg")} className="card-img-top" />
                        <div className="card-body">
-                         <h5 className="card-title">New Concert IN</h5>
+                         <h5 className="card-title">New concert IN</h5>
                           <p className={classes.date}>14.05.2023</p>
-                          <p className={classes.text}>Lorem ipsum dolor sit s, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit s, 
-                               consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor ng elitr, sed diam nonumy eirmodLorem ipsum dolor sit s,
-                               consetetur sadipscing elitr, sed diam nonumy <span className={classes.read}>Read More</span></p>                      </div>
+                          <p className={classes.text}>Lorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmodLorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmod Lorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmodLorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy <span className={classes.read}>Read More</span></p>                      </div>
                     </div>  
                 </div>
 
@@ -46,11 +72,13 @@ function NewsComponent(){
                     <div className={classes.card} >
                       <img src={require("../images/news1.jpg")} className="card-img-top" />
                        <div className="card-body">
-                         <h5 className="card-title">New Concert IN</h5>
+                         <h5 className="card-title">New concert IN</h5>
                           <p className={classes.date}>14.05.2023</p>
-                          <p className={classes.text}>Lorem ipsum dolor sit s, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit s, 
-                               consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor ng elitr, sed diam nonumy eirmodLorem ipsum dolor sit s,
-                               consetetur sadipscing elitr, sed diam nonumy <span className={classes.read}>Read More</span></p>                      </div>
+                          <p className={classes.text}>Lorem ipsum dolor sit s, consetetur sadipscing elitr,
+                             sed diam nonumy eirmodLorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmod Lorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy eirmodLorem ipsum dolor sit s, consetetur sadipscing elitr, 
+                             sed diam nonumy <span className={classes.read}>Read More</span></p>                      </div>
                     </div>  
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" />

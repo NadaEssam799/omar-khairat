@@ -12,15 +12,15 @@ function EventsComponent(){
                         </div>
                         <div className="col-lg-4 col-sm-5">
                             <img src={require("../images/five.png")} />
-                            <h1>8PM</h1>
-                            <h4>CAIRO OPERA HOUSE</h4>
+                            <h1><span className={classes.eight}>8</span>PM</h1>
+                            <div className={classes.cairo}>CAIRO OPERA HOUSE</div>
                             <h6>HALL 1</h6>
                             <div className={classes.vodafone}>
                                 <img src={require("../images/vodafone.png")} />
                                 <img src={require("../images/vodafone.png")} />
                             </div>
                             <button className={classes.ticket}>GET TICKET</button>
-                            <p className={classes.red}>* TICKETS WILL BE AVAILABLE SOON</p>
+                            <div className={classes.red}> * TICKETS WILL BE AVAILABLE SOON</div>
                         </div>
                       </div>
 

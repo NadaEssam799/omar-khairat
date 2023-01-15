@@ -1,0 +1,26 @@
+.discography2{
+    background-image: url("../images/discography2.png");
+    padding: 10px 50px 200px 50px ;
+    height: 100%;
+}
+
+.discography2 h3 {
+    font-family: AGR;
+    padding: 40px 0 20px 0 ;
+    font-size: 22px;
+    color: #fff;
+}
+
+.discography2 h6{
+    color: #fff;
+    font-family: AGR;
+    
+}
+.menu{
+    /* transition: 0.5s ease-in-out; */
+}
+.kadyet:hover + .menu{
+    height: 0;
+    overflow: hidden;
+    /* transition: 0.5s ease-in-out; */
+}

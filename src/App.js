@@ -1,4 +1,5 @@
 import DiscographyComponent from "./components/discography";
+import Discography2Component from "./components/discography2";
 import EventsComponent from "./components/events";
 import FooterComponent from "./components/footer";
 import GalleryComponent from "./components/gallery";
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       <HeaderComponent />
       <EventsComponent />
-      <DiscographyComponent />
+      <Discography2Component />
+      {/* <DiscographyComponent /> */}
       <GalleryComponent />
       <NewsComponent /> 
       <FooterComponent />

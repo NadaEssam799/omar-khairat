@@ -1,6 +1,6 @@
 *{
-  font-family: NVR;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,14 +19,19 @@ code {
   font-family: AGR;
   src: url(../public/fonts/Aviano\ Gothic\ Regular.ttf);
 }
+
 @font-face {
   font-family: NVR;
   src: url(../public/fonts/FSP\ DEMO\ -\ Novecento\ sans\ Book\ Regular\ 350.otf);
 }
 
-.FMAGB{
-  font-family: AGR , NVR;
-  
+@font-face {
+  font-family: POP ;
+  src: url(../public/fonts/Poppins-Light.ttf);
+}
+.FMAGB {
+  font-family: AGR, NVR , POP;
+
 }
 
 .swiper {

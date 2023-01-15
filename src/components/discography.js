@@ -1,9 +1,8 @@
-import classes from "../styles/discography.module.css";
+import classes from "../styles/discography2.module.css";
 
 function DiscographyComponent(){
        return(
          <section className={classes.discography}>
-              <img src={require("../images/discography.jpg")} />
          </section>
        );
 }

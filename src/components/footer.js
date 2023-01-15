@@ -4,7 +4,7 @@ import classes from "../styles/footer.module.css";
 function FooterComponent() {
     return(
          <footer className={classes.footer}>
-          <h5 className={classes.hfooter}>SITE MAP</h5>
+          <h5 className={classes.hfooter}><span className={classes.site}></span>SITE MAP</h5>
           <div className="row">
              <div className="col-md-2 col-sm-6">
                <ul className={classes.footer_ul}>
@@ -13,7 +13,7 @@ function FooterComponent() {
                  <li>ORCHESTRA</li>
                </ul>
              </div>
-             <div className="col-md-3 col-sm-6">
+             <div className="col-md-2 col-sm-6">
                <ul className={classes.footer_ul}>
                 <li>CONTACT</li>
                 <li>GALLERY</li>
@@ -25,7 +25,7 @@ function FooterComponent() {
                 <li>SHOP</li>
               </ul>
              </div>
-             <div className="col-md-3 col-sm-6">
+             <div className="col-md-4 col-sm-6">
                  <ul className={classes.social_ul}>
                   <li><h5 className={classes.hfooter}>SOCIAL MEDIA</h5></li>
                   <img src={require("../images/facebook.png")} />

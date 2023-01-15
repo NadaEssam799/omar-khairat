@@ -15,7 +15,7 @@
 }
 
 .list li {
-    padding: 12px 0;
+    margin-left:  12px;
     font-family: NVR;
     border-bottom: 5px solid transparent;
     cursor: pointer;
@@ -112,8 +112,7 @@
     margin: 0 !important;
     color: #B49A46;
     padding: 10px 20px;
-    border: 1px solid #B49A46;
-    font-weight: 500;
+    font-weight: bold;
     font-family: 'NVR';
     cursor: pointer;
 }
