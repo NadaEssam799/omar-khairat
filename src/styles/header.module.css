@@ -110,3 +110,19 @@ h2 {
 .arabic {
     color: #fff;
 }
+
+.socialmenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 5px;
+    top: 50px;
+}
+
+.headerlogo {
+    width: 66px;
+    height: 139px;
+    position: absolute;
+    left: calc(50% - 33px);
+    top: calc(139px / 2);
+}
