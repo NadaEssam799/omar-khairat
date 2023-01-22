@@ -67,11 +67,13 @@ function HeaderComponent() {
         </nav>
       </div>
       <br />
-      <h2 className={classes.lorem + " FMAGB"}>Lorem ipsum</h2>
-      <p className={classes.first_p}>
-        Lorem ipsum dolor sit amet, consetetur sadipscing
-        <br /> elitr, sed diam nonumy eirmo
-      </p>
+      <div className={classes.text_wrapper}>
+        <h2 className={classes.lorem + " FMAGB"}>Lorem ipsum</h2>
+        <p className={classes.first_p}>
+          Lorem ipsum dolor sit amet, consetetur sadipscing
+          <br /> elitr, sed diam nonumy eirmo
+        </p>
+      </div>
       <div className={classes.headerlogo}>
         <HeaderLogo />
       </div>

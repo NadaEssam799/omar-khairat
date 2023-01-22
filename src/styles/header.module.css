@@ -5,11 +5,15 @@
     background-image: url("../images/background1.jpg");
     width: auto;
     transition: 0.5s ease-in-out;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .container:hover {
     transition: 0.5s ease-in-out;
     background-image: url("../images/background2.jpg");
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .container img {
@@ -25,6 +29,7 @@
 .navbar .ul_list {
     float: right;
     list-style: none;
+    padding: 0 50px;
 }
 
 .navbar .ul_list .list_item {
@@ -44,40 +49,19 @@
 }
 
 .ul_list .left .list_item a {
-    padding: 6px 32px;
+    padding: 6px 30px;
 }
 
 .ul_list .right .list_item a {
-    padding: 6px 28px;
+    padding: 6px 22px;
 }
 
+p{
+    margin-bottom: 0 !important;
+}
 .navbar .ul_list .list_item a:hover {
+    color: white;
     background-color: rgba(207, 177, 177, 0.08);
-}
-
-h2 {
-    color: #b49a46;
-    position: absolute;
-    font-family: AGR;
-    font-weight: 100;
-    font-size: 28px;
-
-}
-
-.container .lorem {
-    left: 38%;
-    top: 74%;
-
-}
-
-.first_p {
-    position: absolute;
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    left: 34%;
-    top: 80%;
-    font-family: NVR;
 }
 
 .classes.music li {
@@ -105,6 +89,7 @@ h2 {
     padding-left: 5px;
     font-family: NVR;
     font-size: 14px;
+    margin-left: 28px;
 }
 
 .arabic {
@@ -115,7 +100,7 @@ h2 {
     position: absolute;
     display: flex;
     flex-direction: column;
-    right: 5px;
+    right: 53px;
     top: 50px;
 }
 
@@ -123,6 +108,34 @@ h2 {
     width: 66px;
     height: 139px;
     position: absolute;
-    left: calc(50% - 33px);
-    top: calc(139px / 2);
+    left: calc(50% - 70px);
+    top: 49px
+}
+
+.text_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 63px;
+}
+
+.lorem {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: -55px;
+    color: #b49a46;
+    font-family: AGR;
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.first_p {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-family: NVR;
 }
